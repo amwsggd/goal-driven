@@ -64,4 +64,4 @@ Criteria for success: [[[[[Ensure that the TypeScript compiler successfully comp
 
 # The Goal-Driven Prompt Template (1 master agent + 1 subagent)
 
-[prompt](./prompt.md)
+[prompt](https://raw.githubusercontent.com/amwsggd/goal-driven/refs/heads/main/prompt.md)
