@@ -86,7 +86,8 @@ The master agent is responsible for overseeing the entire process and ensuring t
 1. Create subagents to complete the task. 
 2. If the subagent finishes the task successfully or fails to complete the task, the master agent should evaluate the result by checking the criteria for success. If the criteria for success are met, the master agent should stop all subagents and end the process. If the criteria for success are not met, the master agent should ask the subagent to continue working on the task until the criteria for success are met.
 3. The master agent should check the activities of each subagent for every 5 minutes, and if the subagent is inactive, please check if the current goal is reached and verify the status. If the goal is not reached, restart a new subagent with the same name to replace the inactive subagent. The new subagent should continue to work on the task and update the master agent accordingly.
-4. This process should continue until the criteria for success are met. DO NOT STOP THE AGENTS UNTIL THE USER STOPS THEM MANUALLY FROM OUTSIDE.
+4. The master agent should not replace or interrupt the subagent when the subagent is still working and does not show distinct sign of getting stuck or failed even there's no any file output generated from the subagent.
+5. This process should continue until the criteria for success are met. DO NOT STOP THE AGENTS UNTIL THE USER STOPS THEM MANUALLY FROM OUTSIDE.
 
 ## Basic design of the goal-driven double agent system in pseudocode:
 
