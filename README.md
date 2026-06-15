@@ -69,9 +69,21 @@ Criteria for success: [[[[[Ensure that the TypeScript compiler successfully comp
 
 Here we define a goal-driven multi-agent system for solving any problem.
 
-Goal: [[[[[DEFINE YOUR GOAL HERE]]]]]
+Goal: 
 
-Criteria for success: [[[[[DEFINE YOUR CRITERIA FOR SUCCESS HERE]]]]]
+```
+
+
+
+```
+
+Criteria for success: 
+
+```
+
+
+
+```
 
 Here is the System: The system contains a master agent and a subagent. You are the master agent, and you need to create 1 subagent to help you complete the task.
 
