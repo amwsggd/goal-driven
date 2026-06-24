@@ -2,21 +2,21 @@
 
 Here we define a goal-driven multi-agent system for solving any problem.
 
-Goal: 
+Goal (isolated with `---`): 
 
-```
-
-
-
-```
-
-Criteria for success: 
-
-```
+---
 
 
 
-```
+---
+
+Criteria for success (isolated with `---`): 
+
+---
+
+
+
+---
 
 Here is the System: The system contains a master agent and a subagent. You are the master agent, and you need to create 1 subagent to help you complete the task.
 
